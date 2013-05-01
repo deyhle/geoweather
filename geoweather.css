@@ -1,0 +1,90 @@
+html {
+	background-color: #f5f7fe;
+}
+
+body {
+	font-size: 150.01%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #444;
+	margin: 0;
+	padding: 0;
+}	
+
+div, p, section, header, footer, ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+
+
+
+
+#city {
+	text-align: center;
+	min-height: 150px;
+}
+
+#cityname {
+	
+	padding-top: 1.6em;
+	font-size: 4em;
+}
+
+
+
+
+#weather {
+	text-align: center;
+	margin-top: 3em;
+	min-height: 50px;
+}
+
+#weather p {
+	line-height: 1.5em;
+}
+
+
+
+
+#language {
+	float: right;
+	margin: 1em 1em 0 0;
+}
+
+#language ul {
+	list-style: none;
+}
+
+#language ul li {
+	float: left;
+	padding: 0 .5em;
+	border-right: 1px solid;
+}
+
+#language ul li:last-child {
+	border: 0;
+}
+
+
+#progressIndicator {
+	margin: 0 auto;
+	position: relative;
+	top: -10em;
+}
+
+
+footer {
+	margin: 2em auto;
+	text-align: center;
+}
